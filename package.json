@@ -1,0 +1,27 @@
+{
+  "name": "retail-plano-web",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Retail plano web: landing for Planogator, Product Foundry and related retail apps",
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^7.0.8",
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.4",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.3.1",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "pagefind": "^1.5.2"
+  }
+}
